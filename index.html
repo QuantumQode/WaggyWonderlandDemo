@@ -1,0 +1,270 @@
+<!doctype html>
+<!--
+  THESIS: Waggy Wonderland is the friendly local team that walks your dog
+  one-on-one, never in a pack. The page feels like a warm hello from a
+  neighbour, refusing both the corporate gig-app look and the sterile
+  "luxury pet spa" look.
+  OWN-WORLD: the original brand palette (cream ground, olive-brown text,
+  heath green accent, cherry sticker red) in rounded, bouncy form:
+  Fredoka headings, Nunito body, pill buttons, blob-masked photos, wavy
+  section edges, a wagging logo. Recognisable with all copy removed.
+  STORY: land, smile, understand "1:1 walks, free meet & greet first",
+  trust the named DBS-checked team, tap Book a Free Meet & Greet.
+  FIRST VIEWPORT: big header with green circle logo; headline left with
+  green highlighted word, two pill buttons, fact chips; right, a real
+  carer-and-dog photo in a slowly morphing blob with a cherry sticker
+  reading "Free meet & greet".
+  FORM: brief-pinned world (user pinned palette + "cute, fun, light");
+  no seed roll. Staging: editorial two-column hero, card grid, split
+  rows, testimonial, CTA panel.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Waggy Wonderland — Your London Dog Walking Service</title>
+<meta name="description" content="One-on-one dog walking, sitting and boarding in North West London. Every walk is just your dog and their carer, never a pack. Start with a free meet & greet.">
+<link rel="icon" href="images/img_14.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container topbar">
+    <a href="index.html" class="brand">
+      <span class="brand__mark"><img src="images/img_14.png" alt=""></span>
+      <span>
+        <span class="brand__word">Waggy Wonderland</span>
+        <span class="brand__tagline">Your London Dog Walking Service</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <input type="checkbox" id="nav-toggle" class="nav__toggle-input">
+      <ul class="nav__links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="nav__cta-mobile"><a href="contact.html" class="btn btn-primary">Book a Free Meet &amp; Greet</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary nav__cta">Free Meet &amp; Greet</a>
+      <label for="nav-toggle" class="nav__toggle" aria-label="Menu"><span></span></label>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero__blob hero__blob--1" aria-hidden="true"></div>
+    <div class="hero__blob hero__blob--2" aria-hidden="true"></div>
+    <div class="container hero__grid">
+      <div>
+        <p class="eyebrow">Tail-wagging care in North West London</p>
+        <h1>Walks, cuddles and care, made <span>just for your dog.</span></h1>
+        <p class="lede">No packs, no strangers. Your dog gets their own friendly, DBS-checked carer for every walk, sit and sleepover, and it all starts with a free meet &amp; greet.</p>
+        <div class="hero__actions">
+          <a href="contact.html" class="btn btn-primary">Book a Free Meet &amp; Greet</a>
+          <a href="services.html" class="btn btn-secondary">See what we do</a>
+        </div>
+        <div class="hero__facts">
+          <span class="chip">1:1 walks only</span>
+          <span class="chip">8 DBS-checked carers</span>
+          <span class="chip">Free first meet &amp; greet</span>
+          <span class="chip">North, North West &amp; West London</span>
+        </div>
+      </div>
+      <div class="hero__photo-wrap">
+        <div class="hero__photo">
+          <img src="images/img_03.jpg" alt="A carer crouches close to a happy white dog during a one-on-one walk." fetchpriority="high">
+        </div>
+        <div class="sticker" aria-hidden="true">Free meet &amp; greet!</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path fill="#F5EEDD" d="M0,30 C360,70 720,-10 1080,30 C1260,50 1350,40 1440,30 L1440,60 L0,60 Z"/></svg>
+  <section class="section section--sand" style="padding-top: clamp(1.5rem, 4vw, 3rem);">
+    <div class="container">
+      <div class="section-head rise">
+        <div>
+          <p class="eyebrow">What we do</p>
+          <h2>Four ways we look after your dog</h2>
+        </div>
+        <a href="services.html" class="btn btn-secondary">All services &amp; policies</a>
+      </div>
+      <div class="card-grid">
+
+        <article class="card rise">
+          <div class="card__photo"><img src="images/img_28.jpg" alt="A white shepherd dog running through a field with a toy." loading="lazy"></div>
+          <div class="card__body">
+            <h3>Dog Walking</h3>
+            <p class="card__price">From &pound;20 <small>/ hour</small></p>
+            <ul>
+              <li>Just your dog and their carer</li>
+              <li>Collected from home</li>
+              <li>Rates by size, see pricing</li>
+            </ul>
+            <a href="services.html#walking" class="btn btn-secondary">Walking</a>
+          </div>
+        </article>
+
+        <article class="card rise">
+          <div class="card__photo"><img src="images/img_27.jpg" alt="A golden retriever relaxing at home in a bright living room." loading="lazy"></div>
+          <div class="card__body">
+            <h3>Dog Sitting</h3>
+            <p class="card__price">From &pound;18 <small>/ hour</small></p>
+            <ul>
+              <li>Company through the day</li>
+              <li>1&ndash;3 hours or longer</li>
+              <li>Same familiar face each time</li>
+            </ul>
+            <a href="services.html#sitting" class="btn btn-secondary">Sitting</a>
+          </div>
+        </article>
+
+        <article class="card rise">
+          <div class="card__photo"><img src="images/img_23.jpeg" alt="A fluffy cream-coloured dog with a bow, freshly groomed." loading="lazy"></div>
+          <div class="card__body">
+            <h3>Dog Boarding</h3>
+            <p class="card__price">From &pound;65 <small>/ night</small></p>
+            <ul>
+              <li>Sleepovers from 1 to 7 nights</li>
+              <li>Rates by size, see pricing</li>
+              <li>Longer stays? Just ask</li>
+            </ul>
+            <a href="services.html#boarding" class="btn btn-secondary">Boarding</a>
+          </div>
+        </article>
+
+        <article class="card rise">
+          <div class="card__photo"><img src="images/img_19.jpg" alt="A carer sits in the grass getting to know a small dog." loading="lazy"></div>
+          <div class="card__body">
+            <h3>Meet &amp; Greet</h3>
+            <p class="card__price">Free <small>&middot; 1 hour</small></p>
+            <ul>
+              <li>We get to know your dog</li>
+              <li>No obligation at all</li>
+              <li>Always before a first booking</li>
+            </ul>
+            <a href="contact.html" class="btn btn-primary">Book yours</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+  <svg class="wave wave--flip" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path fill="#F5EEDD" d="M0,30 C360,70 720,-10 1080,30 C1260,50 1350,40 1440,30 L1440,60 L0,60 Z"/></svg>
+
+  <!-- ============ WHY US ============ -->
+  <section class="section">
+    <div class="container split">
+      <div class="rise">
+        <p class="eyebrow">Why dogs (and their humans) love us</p>
+        <h2>Small team. Big hearts. One dog at a time.</h2>
+        <div class="value-list" style="margin-top:1.6rem;">
+          <div class="value-row">
+            <span class="value-row__icon">1:1</span>
+            <div>
+              <h3>Never a pack walk</h3>
+              <p>Your dog is never walked or sat alongside other people's dogs. One carer, one dog, the whole time.</p>
+            </div>
+          </div>
+          <div class="value-row">
+            <span class="value-row__icon">&#10003;</span>
+            <div>
+              <h3>Everyone's DBS-checked</h3>
+              <p>All eight of our carers are background-checked and personally known to us. Not a marketplace, a team.</p>
+            </div>
+          </div>
+          <div class="value-row">
+            <span class="value-row__icon">&#9829;</span>
+            <div>
+              <h3>Free meet &amp; greet first</h3>
+              <p>Before anything's booked, we come and say hello, learn your dog's routine, and make sure it's a good match.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="split__photo rise">
+        <img src="images/img_11.png" alt="A smiling blue heeler wearing a blue bandana." loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIAL ============ -->
+  <section class="section section--tight">
+    <div class="container">
+      <div class="quote rise">
+        <blockquote>Friendly, helpful, and it's clear they genuinely care about the dogs they look after.</blockquote>
+        <cite>Milo H.</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section--tight">
+    <div class="container">
+      <div class="cta rise">
+        <h2>Fancy a free meet &amp; greet? Your dog's going to love it.</h2>
+        <a href="contact.html" class="btn btn-primary">Book a Free Meet &amp; Greet</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="index.html" class="brand">
+        <span class="brand__mark"><img src="images/img_14.png" alt=""></span>
+        <span>
+          <span class="brand__word">Waggy Wonderland</span>
+          <span class="brand__tagline">Your London Dog Walking Service</span>
+        </span>
+      </a>
+      <p style="margin-top:1.2rem; max-width:32ch;">One-on-one dog walking, sitting and boarding across North West London and parts of North and West.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/waggywonderlandd" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+        <a href="https://www.tiktok.com/@waggywonderlandd" aria-label="TikTok" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 3c.4 2 1.7 3.5 3.9 3.7v3c-1.4.1-2.7-.3-3.9-1.1v6.2a5.4 5.4 0 1 1-4.7-5.4v3.1a2.3 2.3 0 1 0 1.7 2.3V3h3z"/></svg></a>
+        <a href="https://wa.me/447949051202" aria-label="WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3zm0 16.2a7.2 7.2 0 0 1-3.7-1l-.3-.2-2.7.7.7-2.6-.2-.3A7.2 7.2 0 1 1 12 19.2zm3.9-5.4c-.2-.1-1.3-.6-1.5-.7-.2-.1-.3-.1-.5.1-.1.2-.5.7-.6.8-.1.1-.2.1-.4 0-.2-.1-.9-.3-1.7-1a6.4 6.4 0 0 1-1.2-1.5c-.1-.2 0-.3.1-.4l.3-.4.2-.3v-.3c0-.1-.5-1.2-.7-1.6-.2-.4-.4-.4-.5-.4h-.4c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.1 1.6 2.5 3.9 3.4 2.3.9 2.3.6 2.7.6.4 0 1.3-.5 1.5-1 .2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3z"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Hours</h4>
+      <ul>
+        <li>Mon&ndash;Fri: 8am&ndash;8pm</li>
+        <li>Sat&ndash;Sun: 9am&ndash;6pm</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+447949051202">+44 7949 051202</a></li>
+        <li><a href="mailto:wonderlandwaggy@gmail.com">wonderlandwaggy@gmail.com</a></li>
+        <li>NW11 0AA &middot; North West London</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; Waggy Wonderland &middot; Design demo</span>
+    <span>All carers DBS-checked</span>
+  </div>
+</footer>
+
+</body>
+</html>
